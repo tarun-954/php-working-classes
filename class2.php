@@ -28,4 +28,26 @@ echo str_word_count($c);
 ?>
 
 
-<!--  -->
+<!--  find the position of the word in php-->
+<?php
+$c=("welcome to gzb, hello ,IMS");
+
+echo strpos($c,"gzb");
+?>
+
+
+<!--  reverse the string in php-->
+
+<?php
+$d="WELCOME";
+
+echo strrev($d);
+?>
+
+
+<!--  defining a variable -->
+
+<?php 
+define("WISHES","Good morning tarun");
+echo WISHES;
+
