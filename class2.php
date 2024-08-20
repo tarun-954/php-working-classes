@@ -1,5 +1,5 @@
 <!-- creating an array in php -->
- <?php
+<?php
 $a=array("mohan","ram");
 echo gettype($a);
 ?>
@@ -20,3 +20,12 @@ if(FALSE)
 echo "This false condition";
 ?>
 
+
+<!-- counting the words in php -->
+<?php
+$c="welcome to php class,hello everyone ";
+echo str_word_count($c);
+?>
+
+
+<!--  -->
