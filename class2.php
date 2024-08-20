@@ -2,13 +2,15 @@
 <?php
 $a=array("mohan","ram");
 echo gettype($a);
+echo "<br>";
 ?>
 
 
-<!-- Undefined variable -->
+<!-- Undefined variable  will give error -->
 <?php
 $b;
 echo gettype($b);
+echo "<br>";
 ?>
 
 <!--  if in php -->
@@ -16,8 +18,10 @@ echo gettype($b);
 <?php
 if(TRUE)
 echo  "The cond is true";
+echo "<br>";
 if(FALSE)
 echo "This false condition";
+echo "<br>";
 ?>
 
 
@@ -25,6 +29,7 @@ echo "This false condition";
 <?php
 $c="welcome to php class,hello everyone ";
 echo str_word_count($c);
+echo "<br>";
 ?>
 
 
@@ -33,6 +38,7 @@ echo str_word_count($c);
 $c=("welcome to gzb, hello ,IMS");
 
 echo strpos($c,"gzb");
+echo "<br>";
 ?>
 
 
@@ -42,12 +48,49 @@ echo strpos($c,"gzb");
 $d="WELCOME";
 
 echo strrev($d);
+echo "<br>";
 ?>
 
 
 <!--  defining a variable -->
 
 <?php 
-define("WISHES","Good morning tarun");
+define("WISHES","Good morning tarun <br>");
 echo WISHES;
 
+?>
+<!-- constants are automatically global calling constants  in function  -->
+
+<?php 
+
+define("TARUN","good evening tanu <br>");
+function test(){
+    echo TARUN;
+}
+test();
+
+?>
+
+<!-- operaters in php -->
+<?php
+
+$x=20;
+$y=4;
+echo ($x+$y);
+echo "<br>";
+
+echo ($x-$y);
+echo "<br>";
+
+echo ($x%$y);
+echo "<br>";
+
+echo ($x/$y);
+echo "<br>";
+
+
+echo ($x**$y);
+echo "<br>";
+
+echo ($x*$y);
+?>
