@@ -71,7 +71,7 @@ test();
 
 ?>
 
-<!-- operaters in php -->
+<!-- Arthmatic operaters in php -->
 <?php
 
 $x=20;
@@ -93,4 +93,31 @@ echo ($x**$y);
 echo "<br>";
 
 echo ($x*$y);
+?>
+
+
+<!-- Assignment operater in php -->
+
+<?php
+
+$x=10;
+$y=20;
+echo ($x=$y);
+echo "<br>";
+
+echo ($x+=$y);
+echo "<br>";
+
+echo ($x-=$y);
+echo "<br>";
+
+echo ($x*=$y);
+echo "<br>";
+
+
+echo ($x/=$y);
+echo "<br>";
+
+echo ($x%=$y);
+
 ?>
