@@ -20,6 +20,7 @@ echo "<br>";
 
 echo $str1;
 
+echo "<br>"
 
 
 ?>
