@@ -217,30 +217,52 @@ $values=2024;
 $check=CheckleapYear($values);
 echo $check;
 
+echo"<br>";
+echo"-------------------------------------------------------";
+echo"<br>";
+// Write a PHP program that uses a two-dimensional array to store data and then iterates through each element of the array to display it.
 
+// Row number 0:
+// ●	Displays the first row’s data: "Manoj", 7.8, "pass".
+// Row number 1:
+// ●	Displays the second row’s data: "Aditya", 8.5, "pass".
+// Row number 2:
+// ●	Displays the third row’s data: "Anuj", 4.9, "fail".
+<?php
+$sample = [
+    ["Manoj", 7.8, "pass"],
+    ["Aditya", 8.8, "pass"],
+    ["Sam", 3.5, "fail"]
+];
 
-Write a PHP program that uses a two-dimensional array to store data and then iterates through each element of the array to display it.
+// Initialize a row counter
+$rowNumber = 1;
 
-Row number 0:
-●	Displays the first row’s data: "Manoj", 7.8, "pass".
-Row number 1:
-●	Displays the second row’s data: "Aditya", 8.5, "pass".
-Row number 2:
-●	Displays the third row’s data: "Anuj", 4.9, "fail".
- 
+// Loop through the sample array using foreach
+foreach ($sample as $details) {
+    // Display the row number
+    echo "<h1>Row $rowNumber from here</h1>";
 
- 
+    // Display the details
+    echo "Name: " . $details[0] . "<br>";
+    echo "CGPA: " . $details[1] . "<br>";
+    echo "Result: " . $details[2] . "<br>";
 
-
-
-
-
-
-
-
-
+    // Increment the row counter
+    $rowNumber++;
+}
+?>
 
 ?>
+
+ 
+
+
+
+
+
+
+
 
 
 

@@ -33,7 +33,10 @@ foreach ($sections as $section => $details) {
 // ●	Each key maps to another associative array containing "name" and "copies" for that course.
 
 
+$section=array(
+"c++"=>array("tarun","copies")
 
+)
 
 
 
