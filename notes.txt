@@ -1,0 +1,18 @@
+$golbal 
+$server
+
+
+$server[PHP_self]:-
+it returns the file name of the currently executing  script 
+
+
+ $server[SERVER_NAME] :- returns the name of the server under which the script is executing 
+
+
+$request :- it is the super global array that contain the that form $get $post .it allows you to 
+access input data sent to url parameter form submissions or cokkies.  
+
+
+$get :-
+
+cookies are the small files that store information of the users

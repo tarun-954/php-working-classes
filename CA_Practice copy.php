@@ -228,7 +228,7 @@ echo"<br>";
 // ●	Displays the second row’s data: "Aditya", 8.5, "pass".
 // Row number 2:
 // ●	Displays the third row’s data: "Anuj", 4.9, "fail".
-<?php
+
 $sample = [
     ["Manoj", 7.8, "pass"],
     ["Aditya", 8.8, "pass"],
@@ -252,11 +252,6 @@ foreach ($sample as $details) {
     $rowNumber++;
 }
 ?>
-
-?>
-
- 
-
 
 
 
